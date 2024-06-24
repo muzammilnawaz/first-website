@@ -1,399 +1,109 @@
 <!DOCTYPE html>
-<!--this is my first project-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>muzammil khan social worker</title>
-
-
-
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="styel.css">
 </head>
 <body>
-
-
-
-
-
-
-<br>
-<h1>Anchor Tag</h1>
-<p>used to add links to your page</p>
-
-    <a href="https:/www.google.com/">google</a>
-    <br>
-    <a href="https://code.visualstudio.com/download">download vs code</a>
+    <h1>form</h1>
     <br>
     <hr>
-    <h1>Image Tag</h1>
-    <p>used to add images to your page</p>
-    <img src="Picsart_23-07-02_23-23-28-760.jpg"
-    alt="my pic"
-    height="200"/>
+    <form action="">
+        <p>Username:
+            <input type="text" name="Username" size="25"
+            maxlength="30"/>
+        </p>
+        <p>password:
+            <input type="password" name="password" size="25"
+            maxlength="30">
+        </p>
+        <br>
+            <textarea name="comments" role="30" rows="20">enter your comments</textarea>
+            <br>
+            <hr>
+            <label for="Username">Date Of Birth</label>
+            <input type="DATE" name="Depart"/>
+            <br>
+            <hr>
+            <label>Age: <input type="text" name="age" /></label>
+<br/ >
+Gender:
+<input id="female" type="radio" name="gender"
+value="f">
+<label for="female">Female</label>
+<input id="male" type="radio" name="gender" 
+value="m">
+<label for="male">Male</label>
+<fieldset>
+   <legend>Contact details</legend>
+<label>Email:
     <br>
-    <hr>
-    <h1>bold,Italic & underlined tags</h1>
-    <p>Used to highlight text in your page</p>
+    <input type="text" name="Email"/></label>
     <br>
-    <hr>
-    <b>BOLD</b>
-  <br>
-  <i>Italic</i>
-  <br>
-  <u>underlined</u>
-  <br>
-  <hr>
-  <h1>BIG & Small Tags</h1>
-  <p>used to display big & small text on your page</p>
-  <big>this tag show big tex</big>
-  <br>
-  <small>this tag show small tex</small>
-  <br>
-  <hr>
-  <h1>Subscript & Superscript Tag</h1>
-  <p>used to display a horizontal ruler,used to separate content</p>
-  <p>H<sub>2</sub>0</p>
-  <p>3<sup>2</sup>=9</p>
-  <br>
-  <hr>
-  <h1>Pre Tag</h1>
-  <p>used to display text as it is (without ignoring spaces & next line)</p>
-  <br>
-  <pre>
-    Lorem                                                           ipsum dolor sit amet consectetur adipisicing elit. Adipisci, labore.</pre>
-<br>
-<hr>
-<h1>Page Layout Techniques</h1>
-<p>using Semantic tags for layout</p>
-<h2>using the Right Tags</h2>
-<header><h1>header</h1></header>
-<main><h1>Main Content</h1></main>
-<footer><h1>footer</h1></footer>
-<br>
-<hr>
-<h1>Inside Main Tag</h1>
-<h2>Section tag</h2>
-<p><section>For a section on your page</section></p>
-<h2>Article tag</h2>
-<p>For an article on your page</p>
-<h2>Aside tag</h2>
-<p>For content aside main content(ads)</p>
-<br>
-<hr>
-<h1>Revisiting Anchor Tag</h1>
-<h2>"target="_maiin"</h2>
-<h2>For Exampale</h2>
-<a href="https://www.google.com" target="main"> <img src="download.png"alt="google"></a>
-<br>
-<hr>
-<h1>Div Tag</h1>
-<p>Div is a container used for other HTML elements (Block) Element (takes full width)</p>
-<h2>For Exampale</h2>
-<div>
-    <p>hello World</p>
-    <p>hello all world</p>
-    <p>hello to all world</p>
-</div>
-<br>
-<hr>
-<h1>Span Tag</h1>
-<p>Sapan is also a container used for other HTML elements (inline) Element (takes width as per size</p>
-<span>
-    <p>hello world</p>
-    <p>hello all world</p>
-    <p>hello to all world</p>
-</span>
-<br>
-<hr>
-<h1>List in HTML</h1>
-<p>List are used to represent real life list data</p>
-<h2>Uorderlist</h2>
-    <li>Apple</li>
-    <ul>
-        <li>Color : Red</li>
-        <li>Season :Winters</li>
-    </ul>
-    <li>Mango</li>
-    <ul>
-        <li>Color Yellow</li>
-        <li>Season Summers</li>
-    </ul>
-    <li>Litchi</li>
-</ul>
-<br>
-<h2>Order List</h2>
-<ol>
-<li>Apple</li>
-<ul><li>Color : Red</li>
-    <li>Season : Winter</li>
-</ul>
-<li>Mango</li>
-<ul>
-    <li>Color : Yellow</li>
-    <li>Season :Summers</li>
-</ul>
+    <label>Mobile:
+        <br>
+    <input type="text" name="Mobile"/></label>
+        <br>
+        <label>Telephone:
+            <br>
+    <input type="text" name="Telephone"></label>
+</fieldset>
+<p>select your favrite color:
+                <br>
+                <input type="radio" name="class" value="Red" id="1" checked="checked">Red
+                <input type="radio" name="class" value="Black" id="2">Black
+                <input type="radio" name="class" value="Blue" id="3">Blue
+                <input type="radio" name="class" value="Yellow" id="4">Yellow
+                <input type="radio" name="class" value="Waite" id="5">Waite
+            </p>
+            <br>
+            <p>select your favrite 
+                <br>
+                <input type="checkbox" name="service" value="Apple">Apple
+                <input type="checkbox" name="service" value="cheriy">cheriy
+                <input type="checkbox" name="service" value="Red">Mango
+                <input type="checkbox" name="service" value="Banana">Banana
+            </p>
+            <p> Enter Your Place:
+            </p>
+            <select name="Place Name">
+                <option value="Karachi">Karachi</option>
+                <option value="Lahore">Lahore</option>
+                <option value="Multan">Multan</option>
+                <option value="Pishawar">Pishawar</option>
+                <option value="Hydrabad">Hydrabad</option>
+                <option value="Islamabad">Islamabad</option>
+            </select>
+            <br>
+            <hr>
+            <iframe width="450" height="350" src="http://maps.google.co.uk/maps?q=moma+new+york
+            &amp;output=embed">google map</iframe>
+            <br>
+            <hr>
+            <p>Your Hobby:</p>
+             <select name="instrument" size="3"
+            multiple="multiple">
+            <option value="Cricket" selected="select">
+                Cricket
+            </option>
+            <option value="Hockey">Hockey</option>
+            <option value="Fatbool">Fatbool</option>
+            <option value="Valeybool">Valeybool</option>
+        </select>
+        <br>
+        
 
-<li>Litchi</li>
-</ol>
-<br>
-<hr>
-<h1>Tabels in HTML</h1>
-<p>Tables are used to represent real life table data</p>
-<h2>(tr) used to display table row</h2>
-<h2>(td) used to diplay table data</h2>
-<h2>(th) used to display table header</h2>
-<table>
-<tr>
-    <th>
-        NAME
-    </th>
-    <TH>
-        ROLL NO
-    </TH>
-</tr>
 
-<tr>
-    <td>
-        Muzammil Khan
-    </td>
-    <td>
-        2805583
-    </td>
-</tr>
-</table>
-<table>
 
-<tr>
-    <td>
-        Ali khan
-    </td>
-    <td>
-        2805789
-    </td>
-</tr>
-</table>
-<br>
-<hr>
-<h1>Caption in Tables</h1>
-<p>(caption)Student Data(/caption)</p>
-<h1>Example</h1>
 
-<table>
-    <CAption>
-        Student Data
-    </CAption>
-    <tr>
-        <th>
-            NAME
-        </th>
-        <TH>
-            ROLL NO
-        </TH>
-    </tr>
+
+
+
+
+    </form>
+
     
-    <tr>
-        <td>
-            Muzammil Khan
-        </td>
-        <td>
-            2805583
-        </td>
-    </tr>
-    </table>
-    <table>
-    
-    <tr>
-        <td>
-            Ali khan
-        </td>
-        <td>
-            2805789
-        </td>
-    </tr>
-    </table>
-    <br>
-    <hr>
-   <h1>Form in HTML</h1>
-   <p>Forms are used to collect data from user Eg-sigh up /login/help request/contact me</p>
-   <h2>Example</h2>
-  <form action="/muzammil/">
-    <input type="text" placeholder="type something here">
-    <br>
-    <input type="text"placeholder="username">
-    <br>
-    <input type="password" placeholder="passward">
-  </form>
-  <br>
-  <hr>
-  <h1>Label</h1>
-  <label for="101">
-  <input type="radio" value="class XI" name="class" id="101">class XI
-  <label for="102">
-    <br>
-  <input type="radio" value="class XII" name="class" id="102">class XII
-  </label>
-  <br>
-  <hr>
-  <h1>Checkbox</h1>
-  <label for="math">
-  <input type="checkbox" value="math" name="subject" id="101">math
-  <input type="checkbox" value="physics" name="subject" id="102">physics
-  <input type="checkbox" value="english" name="subject" id="103">english
-  <input type="checkbox" value="urdu" name="subject" id="104">urdu
-  <Linput type="submit" value="submit">
-  </label>
-  <br><br>
-  <textarea name="feedback" id="101" placeholder="please give your value feedback hare"> feedback</textarea>
-  <br>
-  <hr>
-  <h1>Select</h1>
-  <select name="city">
-  <option value="karachi">karachi</option>
-  <option value="multan">multan</option>
-  <option value="lahore">lahore</option>
-  <option value="islamabad">islamabad</option>
-  <option value="pishawar">pishawar</option>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>
